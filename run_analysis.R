@@ -127,7 +127,7 @@ run_analysis <- function() {
 	# 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 	
 	#finally write the results to disk as tables
-	write.table(finalTidyMerged, "final_.tTidy_merged.txt", row.name=FALSE)
+	write.table(finalTidyMerged, "final_tidy_merged.txt", row.name=FALSE)
 	# Note this intermediate file is not needed for the assignment.
 	write.table(finalPersonActivitySummaryTable, "final_runPersonActivity_summary_table.txt", row.name=FALSE)
 	
